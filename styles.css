@@ -16,7 +16,8 @@ body {
 
 .header a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .header {
@@ -42,33 +43,21 @@ body {
 
 .container {
     background-color: #1F2937;
-    color: #F9FAF8;
     display: flex;
 }
 
 footer {
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;
-    margin-top: 50px;
     padding-left: 250px;
     padding-right: 250px;
-    font-size: large;
-}
-
-.container h1 {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #F9FAF8;
-    display: flex;
-}
-
-.container div {
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content .container .placeholder {
@@ -80,21 +69,22 @@ footer {
     height: 300px;
     width: 900px;
     background-color: #5a5b5d;
-    color: white
-
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 button {
     background-color: #3882F6;
     padding: 10px 32px;
-    margin: 12px;
+    margin-top: 18px;
     border-radius: 10px;
     width: 150px;
+    border: 2px solid #3882F6;
 }
 
 .container a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #F9FAF8;
     font-size: 18px;
     font-weight: bold;
 }
@@ -126,7 +116,7 @@ button {
     padding-left: 350px;
     padding-right: 350px;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 .boxes {
@@ -134,6 +124,7 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 64px;
 }
 
 .thor {
@@ -162,12 +153,9 @@ button {
 }
 
 .box {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: 5px solid #3882F6;
-    border-color: #3882F6;
-    margin: 5px;
-    padding: 20px;
     border-radius: 25px;
 }
 
@@ -175,19 +163,21 @@ button {
     background-color: #3882F6;
     display: flex;
     flex-direction: row;
-    color: #e5e7eb;
+    color: #f9faf8;
     justify-content: space-around;
     align-items: center;
+    font-size: 18px;
 }
 
 .textbox {
     display: flex;
     flex-direction: column;
+    gap: 12px;
 }
 
 .button2 {
-    border: 2px solid white;
-    color: #e5e7eb;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
     border-radius: 10px;
     font-size: large;
     font-weight: 900;
@@ -198,15 +188,57 @@ button {
     width: 1200px;
     height: 180px;
     display: flex;
-
 }
 
 .quote {
     font-size: 36px;
     color: #1F2937;
     width: 800px;
+    font-style: light italic;
 }
 
 .who {
-    text-align: end;
+    align-self: flex-end;
+    margin-right: 280px;
+    color: #1F2937;
+}
+
+.white h1 {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+}
+
+.action {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.signuptext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.left-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8
+}
+
+.left-text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.bluebox a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    width: 210px;
 }
